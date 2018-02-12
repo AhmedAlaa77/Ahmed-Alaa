@@ -1,0 +1,25 @@
+$ git init
+$ git add 'File1.txt'
+$ git add 'File2.txt'
+$ git add 'File3.txt'
+$ git status
+$ git config --global user.name "AhmedAlaa77"
+$ git config --global user.email "ahmed.salahothman@student.guc.edu.eg"
+$ git commit -m " Adding the 3 Files "
+$ git rm 'File2.txt'
+$ git commit -m "deleting File2 "
+$ git log
+$ git revert  5d5359937ae7c660bf0fc7ce2a8d7d7318e500a6
+$ git commit -m "Restoring File2"
+$ git remote add origin https://github.com/AhmedAlaa77/Ahmed-Alaa.git
+$ git push -u origin master
+$ git branch ReadMe
+$ git checkout ReadMe
+$ git add README.md
+$ git status
+$ git commit -m "Commiting the Readme File"
+$ git checkout master
+$ git merge ReadMe
+$git add 'AllMyCommands.txt'
+$git commit -m "Adding AllMyCommands file"
+$git push
